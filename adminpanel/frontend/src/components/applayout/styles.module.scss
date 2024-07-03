@@ -1,0 +1,19 @@
+.layout {
+    display: grid;
+    grid-template-columns: 205px 1fr;
+    height: 100vh;
+  
+    .content {
+      padding: 40px;
+      overflow-y: auto;
+      max-height: calc(100vh - 64px);
+    }
+  
+    .sidebar-container {
+      grid-row: 1/3;
+      background-color: black;
+      color: white;
+    }
+    
+  }
+  

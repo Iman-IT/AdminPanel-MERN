@@ -1,0 +1,52 @@
+.menu {
+  width: 17.5rem;
+  height: 100%;
+  flex-shrink: 0;
+  gap: 2rem;
+  background-color: #2c3342;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #fff;
+}
+
+.menuicon {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menuicon .text {
+  color: #fff !important;
+}
+
+.menuicon.active {
+  color: #fff !important;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 0.75rem;
+  background-color: #2c3342; /* Background color for active item */
+}
+
+.menuicon:hover,
+.menuicon:active {
+  color: #fff !important;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.nav-item{
+  color: white;
+  .nav-link{
+    color: white;
+  }
+}
